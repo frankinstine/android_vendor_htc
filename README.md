@@ -1,2 +1,2 @@
-vendor-htc
+vendor_htc
 ==========

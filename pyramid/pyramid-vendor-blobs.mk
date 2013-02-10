@@ -18,34 +18,50 @@
 PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-        vendor/htc/pyramid/proprietary/lib/hw/audio_policy.msm8660.so:obj/lib/hw/audio_policy.msm8660.so
+	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
-#Playstaion Mobile Files
+# Firmware blobs
 PRODUCT_COPY_FILES += \
-  vendor/htc/pyramid/proprietary/etc/permissions/com.playstation.playstationcertified.xml:system/etc/permissions/com.playstation.playstationcertified.xml \
-  vendor/htc/pyramid/proprietary/framework/com.playstation.playstationcertified.jar:system/framework/com.playstation.playstationcertified.jar \
+    vendor/htc/pyramid/proprietary/firmware/modem.b00:/system/vendor/firmware/modem.b00 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b01:/system/vendor/firmware/modem.b01 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b02:/system/vendor/firmware/modem.b02 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b03:/system/vendor/firmware/modem.b03 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b04:/system/vendor/firmware/modem.b04 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b05:/system/vendor/firmware/modem.b05 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b06:/system/vendor/firmware/modem.b06 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b07:/system/vendor/firmware/modem.b07 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b08:/system/vendor/firmware/modem.b08 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b09:/system/vendor/firmware/modem.b09 \
+    vendor/htc/pyramid/proprietary/firmware/modem.mdt:/system/vendor/firmware/modem.mdt \
+    vendor/htc/pyramid/proprietary/firmware/q6.b00:/system/vendor/firmware/q6.b00 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b01:/system/vendor/firmware/q6.b01 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b02:/system/vendor/firmware/q6.b02 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b03:/system/vendor/firmware/q6.b03 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b04:/system/vendor/firmware/q6.b04 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b05:/system/vendor/firmware/q6.b05 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b06:/system/vendor/firmware/q6.b06 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b07:/system/vendor/firmware/q6.b07 \
+    vendor/htc/pyramid/proprietary/firmware/q6.mdt:/system/vendor/firmware/q6.mdt
 
 PRODUCT_COPY_FILES += \
-  vendor/htc/pyramid/proprietary/app/GooManager_2.1.2.apk:system/app/GooManager_2.1.2.apk \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/pyramid/proprietary/etc/vpimg:system/etc/vpimg \
-  vendor/htc/pyramid/proprietary/etc/hosts:system/etc/hosts \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
-  vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
+  vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+  vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
-  vendor/htc/pyramid/proprietary/lib/hw/audio_policy.msm8660.so:system/lib/hw/audio_policy.msm8660.so \
   vendor/htc/pyramid/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+  vendor/htc/pyramid/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/pyramid/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/pyramid/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/pyramid/proprietary/lib/libidl.so:system/lib/libidl.so \
